@@ -1,0 +1,33 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Environment variables (CRITICAL: NEVER COMMIT SECRETS)
+.env
+
+# WhatsApp Auth State (CRITICAL: NEVER COMMIT YOUR SESSION)
+.auth_info/
+
+# Local Databases and Memory
+database.json
+vector_db.json
+knowledge.json
+dossier_utenti.json
+
+# Media and Temp folders
+temp/
+downloads/
+storage/
+total/
+
+# Configuration (keep config.yaml if it contains non-sensitive model lists, or ignore if sensitive)
+# config.yaml
